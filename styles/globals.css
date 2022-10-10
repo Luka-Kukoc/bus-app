@@ -23,3 +23,13 @@ body {
   font-family: "Accord-Light";
   src: url("../public/fonts/AccordAlternate-Light.ttf");
 }
+
+@font-face {
+  font-family: Accord-Bold;
+  src: url("../public/fonts/AccordAlternate-Bold.ttf");
+}
+
+p {
+  font-family: Accord-Bold;
+  color: var(--blue) !important;
+}

@@ -6,32 +6,32 @@ const ButtonGrid = () => {
   const items = [
     {
       name: "Planiraj putovanje",
-      icon: "",
+      icon: 0,
       href: "/",
     },
     {
       name: "Vozni red",
-      icon: "",
+      icon: 1,
       href: "/",
     },
     {
       name: "Prodajna mjesta",
-      icon: "",
+      icon: 2,
       href: "/",
     },
     {
       name: "42,00kn",
-      icon: "",
+      icon: 3,
       href: "/",
     },
     {
       name: "Moje karte",
-      icon: "",
+      icon: 4,
       href: "/",
     },
     {
       name: "Kupi kartu",
-      icon: "",
+      icon: 5,
       href: "/",
     },
   ];
@@ -39,7 +39,7 @@ const ButtonGrid = () => {
   return (
     <div className={styles.buttonGrid}>
       {items.map((item) => (
-        <Card name={item.name} key={item.name} />
+        <Card name={item.name} key={item.name} icon={item.icon} />
       ))}
     </div>
   );

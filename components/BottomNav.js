@@ -13,7 +13,7 @@ const BottomNav = () => {
       <div>
         <Link href="/">
           <>
-            <Image src={House} width={32} height={32} />
+            <Image src={House} width={42} height={42} />
             <p>Početna</p>
           </>
         </Link>
@@ -21,7 +21,7 @@ const BottomNav = () => {
       <div>
         <Link href="/karte">
           <>
-            <Image src={Qr} width={32} height={32} />
+            <Image src={Qr} width={42} height={42} />
             <p>Karte</p>
           </>
         </Link>
@@ -29,7 +29,7 @@ const BottomNav = () => {
       <div>
         <Link href="/linije">
           <>
-            <Image src={Book} width={32} height={32} />
+            <Image src={Book} width={42} height={42} />
             <p>Linije</p>
           </>
         </Link>
@@ -37,7 +37,7 @@ const BottomNav = () => {
       <div>
         <Link href="/profil">
           <>
-            <Image src={Profile} width={32} height={32} />
+            <Image src={Profile} width={42} height={42} />
             <p>Profil</p>
           </>
         </Link>

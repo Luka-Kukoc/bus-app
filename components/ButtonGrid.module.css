@@ -1,10 +1,9 @@
 .buttonGrid {
   display: grid;
   padding: 0px 2.144vh;
-  margin-top: 7.692vh;
+  margin-top: 8.692vh;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(3, 1fr);
   grid-gap: 2.144vh;
   height: 55vh;
-  background-color: aquamarine;
 }
