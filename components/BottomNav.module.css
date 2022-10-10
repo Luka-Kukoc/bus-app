@@ -1,0 +1,27 @@
+.bottomNav {
+  overflow: hidden;
+  background-color: white;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 7.692vh;
+  display: flex;
+  flex-direction: row;
+  padding: 0px 2.144vh;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 5;
+}
+
+.bottomNav div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.bottomNav div p {
+  margin: 0;
+  font-family: Accord;
+  color: var(--blue);
+}

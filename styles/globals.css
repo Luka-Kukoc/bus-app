@@ -1,0 +1,25 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  min-width: fit-content;
+  min-height: fit-content;
+
+  font-family: Accord;
+}
+
+:root {
+  --blue: #1c5da3;
+  --card-background: #e5ecf4;
+  --yellow: #f4e721;
+}
+
+@font-face {
+  font-family: Accord;
+  src: url("../public/fonts/AccordAlternate-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Accord-Light";
+  src: url("../public/fonts/AccordAlternate-Light.ttf");
+}

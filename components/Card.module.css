@@ -1,0 +1,12 @@
+.card {
+  background-color: /* #e5ecf4 */ #b4c9e1;
+  border-radius: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.card p {
+  font-family: Accord;
+}

@@ -1,31 +1,31 @@
 {
-    "theme_color": "#054B9B",
-    "background_color": "#FBEB04",
-    "display": "standalone",
-    "scope": "/",
-    "start_url": "/",
-    "name": "Promet Split",
-    "short_name": "Promet Split",
-    "icons": [
-        {
-            "src": "/icon-192x192.png",
-            "sizes": "192x192",
-            "type": "image/png"
-        },
-        {
-            "src": "/icon-256x256.png",
-            "sizes": "256x256",
-            "type": "image/png"
-        },
-        {
-            "src": "/icon-384x384.png",
-            "sizes": "384x384",
-            "type": "image/png"
-        },
-        {
-            "src": "/icon-512x512.png",
-            "sizes": "512x512",
-            "type": "image/png"
-        }
-    ]
+  "theme_color": "#ffffff",
+  "background_color": "#FBEB04",
+  "display": "standalone",
+  "scope": "/",
+  "start_url": "/",
+  "name": "Promet Split",
+  "short_name": "Promet Split",
+  "icons": [
+    {
+      "src": "/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon-256x256.png",
+      "sizes": "256x256",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon-384x384.png",
+      "sizes": "384x384",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
 }
