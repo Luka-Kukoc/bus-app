@@ -3,13 +3,13 @@ import styles from "./Card.module.css";
 import Image from "next/image";
 import Travel from "../public/Background.svg";
 import Book from "../public/Book.svg";
-import House from "../public/House.svg";
 import Wallet from "../public/Wallet.svg";
 import Ticket from "../public/Ticket.svg";
 import Bag from "../public/Bag.svg";
+import Ruler from "../public/Ruler.svg";
 
 const Card = ({ name, key, icon, href }) => {
-  const icons = [Travel, Book, House, Wallet, Ticket, Bag];
+  const icons = [Ruler, Book, Travel, Wallet, Ticket, Bag];
   return (
     <div key={key} className={styles.card}>
       <Image height={52} width={52} src={icons[icon]} />

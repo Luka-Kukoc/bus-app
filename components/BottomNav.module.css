@@ -7,7 +7,7 @@
   height: 7.692vh;
   display: flex;
   flex-direction: row;
-  padding: 0px 2.144vh;
+  padding: 0px 2.144vh 5px 2.144vh;
   justify-content: space-between;
   align-items: center;
   z-index: 5;
@@ -22,6 +22,9 @@
 
 .bottomNav div p {
   margin: 0;
-  font-family: Accord;
+  font-size: 12px;
+  font-weight: 600;
+
+  font-family: Accord-Bold;
   color: var(--blue);
 }
