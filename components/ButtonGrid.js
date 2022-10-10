@@ -1,7 +1,9 @@
 import React from "react";
 import styles from "./ButtonGrid.module.css";
 import Card from "./Card";
-
+import Image from "next/image";
+import Profile from "../public/Profile.svg";
+import EU from "../public/EULicence.jpeg";
 const ButtonGrid = () => {
   const items = [
     {
@@ -37,11 +39,22 @@ const ButtonGrid = () => {
   ];
 
   return (
-    <div className={styles.buttonGrid}>
-      {items.map((item) => (
-        <Card name={item.name} key={item.name} icon={item.icon} />
-      ))}
-    </div>
+    <>
+      <div className={styles.buttonGrid}>
+        {items.map((item) => (
+          <Card name={item.name} key={item.name} icon={item.icon} />
+        ))}
+        <div className={styles.buttonGriddiv}>
+          <Image src={Profile} width={52} height={52} />
+          <p>Aktiviraj puni profil</p>
+        </div>
+      </div>
+      <div className={styles.bottomPart}>
+        <div className={styles.imageContainer}>
+          <Image src={EU} layout="intrinsic"></Image>
+        </div>
+      </div>
+    </>
   );
 };
 

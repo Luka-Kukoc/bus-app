@@ -12,7 +12,7 @@ const Card = ({ name, key, icon, href }) => {
   const icons = [Travel, Book, House, Wallet, Ticket, Bag];
   return (
     <div key={key} className={styles.card}>
-      <Image height={62} width={62} src={icons[icon]} />
+      <Image height={52} width={52} src={icons[icon]} />
       <p>{name}</p>
     </div>
   );
