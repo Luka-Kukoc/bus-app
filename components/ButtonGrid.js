@@ -29,12 +29,12 @@ const ButtonGrid = () => {
     {
       name: "Moje karte",
       icon: 4,
-      href: "/",
+      href: "/myTickets",
     },
     {
       name: "Kupi kartu",
       icon: 5,
-      href: "/",
+      href: "",
     },
   ];
 
@@ -42,7 +42,12 @@ const ButtonGrid = () => {
     <>
       <div className={styles.buttonGrid}>
         {items.map((item) => (
-          <Card name={item.name} key={item.name} icon={item.icon} />
+          <Card
+            name={item.name}
+            key={item.name}
+            icon={item.icon}
+            href={item.href}
+          />
         ))}
         <div className={styles.buttonGriddiv}>
           <Image src={Profile} width={52} height={52} />
